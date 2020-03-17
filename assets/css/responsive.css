@@ -1,0 +1,1454 @@
+@media (max-width: 1200px) {
+	.movie-title h1 {
+		font-size: 2.9em;
+	}
+	.movie-info-box .info-overview {
+		font-size: 15px;
+	}
+
+	.movie-info-box .info-title {
+		font-size: 16px;
+	}
+	.ratings .rating-item {
+		font-size: 1.4em;
+		margin: 0;
+	}
+
+	.video-popup {
+		width: 90% !important;
+		left: calc(50% - (90% / 2));
+		top: calc(50% - (90% / 2));
+	}
+
+	.plans .plan {
+		width: 100%;
+		margin-bottom: 20px;
+		transform: translateY(0) scale(1) !important;
+	}
+
+	.plan .plan-price {
+		font-size: 4em;
+		margin-top: 70px;
+		padding: 0 10px;
+		line-height: 1em;
+	}
+
+	.plan .features {
+		font-size: 0.9em;
+		margin-bottom: 20px;
+	}
+
+	.top-movies-section .top-movies-carousel-item {
+		height: 440px;
+	}
+
+	.plans .plan {
+		width: calc((100% / 2) - 12px);
+	}
+}
+
+@media (max-width: 992px) {
+	#main-header.single {
+		height: 153px;
+	}
+
+	#main-nav {
+		float: left;
+	}
+	.tabText {
+		text-align: center;
+		margin: 0;
+		padding: 5px;
+		font-size: 16px;
+	}
+    #main-header .main-menu {
+		margin-top: 14px;
+		display: none;
+	}
+	
+	#main-header .main-menu li.profile-btn > a {
+		margin: 0;
+	}
+	
+	#main-header .main-menu li.profile-btn > a i {
+		display: none;
+	}
+	
+	#main-header .main-menu li.profile-btn:hover .children {
+		display: none;
+	}
+
+	.movie-item {
+		padding: 0 5px;
+	}
+
+	.movie-item:before {
+		left: 5px;
+    	width: calc(100% - 10px);
+	}
+	
+    .top-movie-details .details {
+    	padding: 0 12px;
+    }
+	
+    .top-movie-details .details .badges {
+        transform: scale(0.8);
+        transform-origin: bottom right;
+    }
+
+    .top-movie-details .details h1 {
+        font-size: 40px;
+    }
+
+    .top-movie-details .details .genres {
+        font-size: 16px;
+        margin: 10px 0 0;
+    }
+
+    .top-movie-details .download-btn {
+        transform: scale(0.8);
+        transform-origin: bottom left;
+    }
+
+
+    .search-container input {
+        padding: 11px 50px 8px 14px;
+    }
+
+    .search-container i {
+        top: 15px;
+        right: 37px;
+	}
+	
+	#hamburger {
+		display: inline-block;
+	}
+
+    .top-movies .movie-item {
+        padding: 0 5px;
+    }
+
+	.top-movies .movie-item .dl-btn {
+		transform: scale(0.5);
+		font-size: 14px;
+		margin: 0 10px;
+		width: 79%;
+	}
+
+	.top-movies .movie-item .top {
+		top: 8px;
+		left: 12px;
+		width: 100%;
+		font-size: 13px;
+	}
+
+	.top-movies .movie-item .top .rate {
+		font-size: 19px;
+	}
+
+	.top-movies .movie-item .bottom {
+		left: 12px;
+	}
+
+	.top-movies .movie-item .bottom h2 {
+		font-size: 14px;
+	}
+
+	.top-movies .movie-item .bottom .genres {
+		font-size: 11px;
+	}
+
+    .top-movies .movie-item:before {
+        width: calc(100% - 10px);
+        left: 5px;
+	}
+
+	#player {
+		height: 460px !important;
+	}
+	
+	.trailer-player {
+		flex-direction: column-reverse;
+	}
+	
+	.trailer-player > div {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.trailer-player .playlist {
+		overflow-y: initial;
+		overflow-x: scroll;
+		white-space: nowrap;
+		margin: 10px 0 0;
+	}
+
+	.trailer-player .playlist .playlist-item {
+		width: 100%;
+		display: block;
+		float: left;
+	}
+
+	.trailer-player .playlist .playlist-item .thumbnail {
+		width: 120px;
+		max-width: 120px;
+	}
+
+	.trailer-player .playlist .playlist-item .item-info {flex: none;max-width: calc(100% - 120px);}
+
+	.trailer-player .trailer {
+		min-height: 480px !important;
+	}
+
+	#main-footer .footer-nav ul {
+		display: block;
+		flex-wrap: wrap;
+	}
+
+	.actors .col {
+		min-width: 50%;
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+
+	.actors .col .actor {
+		width: 100%;
+		height: 100%;
+		padding: 0 10px 0 0;
+	}
+
+	.actors .col img {
+		float: left;
+		width: 100px;
+		border-radius: 10px 0 0 10px;
+		margin-right: 14px;
+	}
+
+	.actors .col .name {padding-top: 10px;}
+	.all-info .row > ul li {
+		width: calc(100% / 2);
+	}
+
+	.movie-btns {
+		width: 100%;
+		text-align: left;
+		margin-left: -15px;
+	}
+
+	.ratings {
+		width: 100%;
+		text-align: left;
+		margin-bottom: 12px;
+		margin-left: -15px;
+	}
+
+	.movie-details .details {flex-direction: column-reverse;}
+
+	.movie-title h1 {
+		font-size: 2.2em;
+	}
+
+	.movie-title {
+		margin-bottom: 8px;
+	}
+	.info-box {
+		flex-direction: column-reverse;
+	}
+
+	.info-box .col-6 {
+		min-width: 100%;
+		padding: 0 !important;
+	}
+
+	.info-box .col-md-7 {
+		margin-bottom: 10px;
+	}
+
+	.info-box {
+		flex-direction: column-reverse;
+	}
+
+	.info-box .col-6 {
+		min-width: 100%;
+		padding: 0 !important;
+	}
+
+	.info-box .col-md-7 {
+		margin-bottom: 10px;
+	}
+
+	.movie-info-box, .trailer-box {
+		height: auto;
+	}
+
+	.single-box-header .externals {
+		width: 31%;
+	}
+
+	.single-box-header p {
+		width: 68%;
+		font-size: 18px;
+	}
+
+	.all-info .row > ul {
+		width: 100%;
+	}
+
+	.all-info .row .company {
+		width: 100%;
+		padding: 40px 21px 0;
+	}
+
+	.all-info .row > ul li {
+		padding-bottom: 10px;
+	}
+
+	.all-info .row .company .info a {
+		display: inline-block;
+		margin-left: 20px;
+	}
+
+	.settingTab .col-6 {
+		flex: 1;
+		max-width: 100%;
+		min-width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.page-content .movie-item {
+		flex: 100%;
+		max-width: 100%;
+		padding: 10px;
+		margin-bottom: 10px !important;
+	}
+	
+	.archive-settings .col-9, .archive-settings .col-3 {
+		width: 100%;
+		flex: 100%;
+		max-width: 100%;
+		margin: 0 10px;
+	}
+
+	.archive-settings .col-9 .col-4 {
+		width: 48%;
+		flex: 48%;
+		max-width: 46%;
+		padding: 0;
+		margin: 0 10px;
+	}
+
+	.page-content .grid .movie-item {
+		flex: calc((100% / 3) - 10px);
+		max-width: calc((100% / 3) - 10px);
+	}
+
+	.page-content .walls .wall-item,
+	.page-content .trailers .trailer-item {
+		flex: calc((100% / 3) - 10px);
+		max-width: calc((100% / 3) - 10px);
+	}
+
+	.walls .movie-item {
+		flex: calc((100% / 3) - 10px);
+		max-width: calc((100% / 3) - 10px);
+	}
+
+	.sort .select2 {
+		width: 30% !important;
+	}
+
+	.page-content .twocol .movie-item {
+		flex: calc(100% - 10px);
+		max-width: calc(100% - 10px);
+	}
+
+	.tickets-table th:nth-child(2) {
+		width: 50%;
+	}
+
+	.section-header h2 {
+		font-size: 2em;
+	}
+
+	.dl-links .dl-box .item-value {
+		margin-left: 10px;
+		text-align: right;
+	}
+
+    .dl-links .dl-box .encoder,
+	.dl-links .dl-box .encoder span, 
+	.dl-links .dl-box .size span {
+		float: none;
+	}
+
+	.dl-links .dl-box .row:first-of-type {
+		padding: 0 10px;
+		padding-bottom: 12px;
+	}
+
+	.dl-links .dl-box .quality {
+		font-size: 13px;
+		padding: 6px 11px;
+		margin-bottom: 0;
+	}
+
+	.dl-links .dl-box .encoder,
+	.dl-links .dl-box .size,
+	.dl-links .dl-box .description {
+		font-size: 13px;
+		padding-left: 0;
+	}
+
+	.dl-box .dl-btn {
+		padding: 13px 0;
+	}
+
+	.dl-box .dl-btn p {
+		font-size: 14px;
+	}
+
+	.share-popup {
+		right: -20px;
+	}
+
+	.tabList.seasons .tabNum {
+		width: calc(100% / 5);
+	}
+
+	.dl-box .episode-links .link {
+		width: calc((100% / 4) - 8px);
+	}
+
+	.top-movies-section .top-movies-carousel-item {
+		height: 320px;
+	}
+
+	.top-movies-carousel-item .details h1 {
+		font-size: 40px;
+	}
+
+	.top-movies-carousel-item .details .genres {
+		font-size: 16px;
+	}
+
+	.top-movies-carousel-item .details .badges {
+		transform: scale(0.8);
+		transform-origin: bottom right;
+	}
+
+	.top-movies-section .slick-next,
+	.top-movies-section .slick-prev {
+		top: 38%;
+	}
+
+	.email-verify {
+        height: 110px;
+	}
+
+	.email-verify .sent-again {
+		float: none;
+		margin: 6px auto 0;
+	}
+}
+
+@media (max-width: 768px) {
+	#main-header.single {
+		height: 138px;
+	}
+	
+	body {
+		padding-bottom: 80px;
+	}
+
+	.plans .plan {
+		width: 100%;
+	}
+	
+	.top-movie, .top-movies {
+		display: none;
+	}
+
+	.bottom-navigation .bottom-navigation-item .icon:before {
+		top: 4px;
+	}
+
+	.top-movies .movie-item {
+		flex-direction: row-reverse;
+	}
+
+	.tabText {
+		padding: 12px 5px;
+	}
+
+	.tabNum{
+		width: calc(100% / 4);
+		margin: 4px 0;
+	}
+
+	.tabList {
+		display: flex;
+		justify-content: center;
+	}
+
+	.section-header h2 {
+		font-size: 2em;
+	}
+
+	.top-movie {
+		height: 60vh;
+	}
+
+	.top-movies {
+		margin-top: calc(60vh - 150px);
+	}
+
+	.top-movie-details {
+		margin-top: calc(60vh - 220px);
+	}
+
+	.top-movies .movie-item {
+		width: calc(50% - 6px);
+		margin: 3px 3px;
+		padding: 5px;
+		flex: initial;
+		background: #14222e;
+		box-shadow: 0px 6px 10px #070e148c;
+	}
+
+	.top-movies .movie-item:before {
+		display: none;
+	}
+
+	.top-movies .movie-item img {
+		width: 32%;
+	}
+
+	.top-movies .movie-item .top {
+		flex-direction: row;
+		align-items: center;
+		top: 7px;
+		left: 11px;
+	}
+
+	.top-movies .movie-item .top .rate {
+		margin-right: 6px;
+	}
+	.top-movies .movie-item .bottom {
+		width: calc(100% - 36%);
+		bottom: 8px;
+	}
+
+	.top-movies .movie-item .bottom .genres {
+		margin-top: 3px;
+		font-size: 10px;
+	}
+	.top-movies .movie-item .dl-btn {
+		left: 0;
+		width: 60%;
+	}
+	#player {
+		height: 340px !important;
+	}
+	.comments .comment .user-image img {
+		width: 36px;
+		height: 36px;
+	}
+
+	.comments .comment .comment-body {
+		margin-right: 48px;
+	}
+
+	.dl-links .dl-box {
+		padding-top: 12px;
+	}
+
+	.dl-box .dl-btn {
+		font-size: 15px;
+		padding: 10px 0;
+	}
+	.dl-box .dl-btn p {
+		font-size: 13px;
+	}
+
+	.dl-box .dl-btn:first-of-type p {
+		top: 2px;
+	}
+
+	.dl-box .dl-btn i {
+		font-size: 12px;
+	}
+
+	.dl-box .dl-btn i.icon-subtitles {
+		font-size: 14px;
+	}
+
+	.dl-box .dl-btn i.icon-image {
+		font-size: 14px;
+	}
+
+	.all-info .row > ul li {
+		width: calc(100% / 2);
+	}
+
+	.single-box-header .externals {
+		width: 42%;
+	}
+	
+	.single-box-header p {
+		width: 55%;
+	}
+
+	.movie-btns {
+		margin-left: 0;
+	}
+
+	.movie-title h1 {
+		font-size: 2em;
+	}
+
+	.movie-details {
+		width: 100%;
+		padding: 0 10px;
+	}
+
+	.poster-container {
+		width: 100%;
+		padding: 0 10px;
+		margin-bottom: 15px;
+	}
+
+	.poster-container img {
+		width: 20%;
+		float: left;
+	}
+
+	.single-header-content {
+		display: flex;
+		flex-direction: column-reverse;
+		bottom: 20px;
+	}
+
+	.movie-btns .watchlist-btn {
+		height: 45px;
+		padding: 12px 16px;
+		font-size: 14px;
+		margin: 0 5px 0 0;
+	}
+
+	.movie-btns .watchlist-btn i {
+		font-size: 17px;
+	}
+
+	.movie-btns .share-btn {
+		width: 45px;
+		height: 45px;
+		top: 0;
+		margin-left: 8px;
+		position: static;
+	}
+
+	.movie-btns .share-btn .share-popup {
+		width: 100%;
+	}
+
+	.movie-btns .share-btn .copy-url {
+		width: 100%;
+	}
+
+	.share-btn .share-popup:after {
+		right: calc(50% - 10px);
+	}
+
+	.movie-btns .share-btn.open .icon-share:before {
+		font-size: 15px;
+		top: 0px;
+	}
+
+	.movie-btns .share-btn .share-btns li a i {
+		font-size: 42px;
+	}
+
+	.movie-btns .share-btn .share-btns li a i:after {
+		width: 96%;
+		height: 40px;
+		bottom: 1px;
+	}
+
+	.share-btn .share-popup {
+		right: 0;
+		bottom: 60px;
+	}
+
+	.movie-btns .share-btn i {
+		font-size: 18px;
+		padding-top: 13px;
+	}
+
+	.anim-icon {
+		width: 45px;
+		height: 45px;
+		margin: 0 0 0 5px;
+		top: -4px;
+	}
+
+	.all-info {
+		padding: 15px;
+	}
+
+	.video-popup {
+		width: 80% !important;
+		left: calc(50% - (80% / 2));
+		top: calc(50% - (80% / 2));
+	}
+
+	.dl-links .dl-box .col-4 {
+		padding: 0;
+	}
+
+	.dl-links .dl-box .row:first-of-type {
+		padding: 0 10px 10px 0;
+	}
+
+	.video-popup .close-popup {
+		width: 60px;
+		height: 60px;
+		font-size: 17px;
+		padding-top: 20px;
+		top: -25px;
+		left: -25px;
+	}
+
+	.trailer-player .trailer {
+		min-height: 340px !important;
+	}
+
+	.settingsList .tabNum {
+		width: 50%;
+		padding: 6px 0 2px;
+	}
+
+	.settingsList .tabNum:hover, .settingsList .tabNum.isActive {
+		background: #00D1CD;
+	}
+
+	.scroll {
+		background: rgba(231, 0, 95, 0.6);
+		box-shadow: 0 0 12px 10px rgba(7, 14, 20, 0.25);
+		width: 60px;
+		height: 60px;
+		padding: 17px;
+	}
+	
+	.scroll .icon {
+		font-size: 19px;
+	}
+
+	.tickets-table {
+		border: 0;
+	}
+
+	.tickets-table caption {
+		font-size: 1.3em;
+	}
+
+	.tickets-table thead {
+		border: none;
+		clip: rect(0 0 0 0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+	}
+
+	.tickets-table tr {
+		border-bottom: 3px solid rgba(221, 221, 221, 0.54);
+		display: block;
+		margin-bottom: .625em;
+		background: rgba(255, 255, 255, 0.1);
+		border-radius: 10px;
+	}
+
+	.tickets-table td {
+		border-bottom: 1px solid rgba(221, 221, 221, 0.54);
+		display: block;
+		font-size: .8em;
+		text-align: left;
+	}
+
+	.tickets-table td::before {
+		content: attr(data-label);
+		float: right;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.tickets-table td:last-child {
+		border-bottom: 0;
+	}
+	
+	.archive-settings .col-9, .archive-settings .col-3 {
+		width: 100%;
+		flex: 100%;
+		max-width: 100%;
+		margin: 0 10px;
+	}
+
+	.archive-settings .col-9 .col-4 {
+		width: 100%;
+		flex: 100%;
+		max-width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	.page-content .list .movie-item .number {
+		width: 35px;
+		color: #00d1cd;
+		text-align: center;
+		font-size: 15px;
+		font-weight: bold;
+		padding-left: 2px;
+		background: rgb(39, 51, 62);
+		margin-left: 8px;
+		border-radius: 20px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		border-radius: 0px 0 0px 10px;
+		height: 35px;
+		padding-top: 7px;
+	}
+
+	.page-content .list .movie-item .bottom {
+		right: 90px;
+	}
+
+	.page-content .grid .movie-item {
+		flex-direction: column;
+	}
+
+	.page-content .grid .movie-item .top {
+		display: none;
+	}
+
+	.movie-item .bottom {
+		left: initial !important;
+		bottom: initial !important;
+		position: relative;
+		width: 100%;
+		padding: 6px 4px;
+	}
+
+	.movie-item .bottom h2 {
+		font-size: 12px;
+		height: 32px;
+		overflow: hidden;
+	}
+
+	.movie-item:before {
+		display: none;
+	}
+
+	.page-content .movie-item .bottom h2 {
+		font-size: 14px;
+	}
+
+	.page-content .twocol .movie-item .bottom {
+		right: 5px;
+		top: -4px;
+	}
+
+	.page-content .twocol .movie-item .bottom h2 {
+		font-size: 17px;
+		height: auto;
+	}
+
+	.page-content .walls .wall-item {
+		flex: calc((100% / 2) - 10px);
+		max-width: calc((100% / 2) - 10px);
+		height: 135px;
+	}
+
+	.walls .movie-item {
+		flex: calc((100% / 2) - 10px);
+		max-width: calc((100% / 2) - 10px);
+		padding: 0;
+	}
+
+	.page-content .trailers .trailer-item {
+		flex: calc((100% / 2) - 10px);
+		max-width: calc((100% / 2) - 10px);
+		height: 145px;
+	}
+
+	.sort .select2 {
+		width: 40% !important;
+	}
+	
+	#main-header .logo img {
+		width: 200px;
+	}
+
+	.tabNum2 {
+		width: calc(100% / 7);
+		font-size: 0;
+		margin: 10px 0 15px;
+	}
+
+	.tabNum2:after {
+		content: attr(week-letter);
+		font-size: 18px;
+		display: block;
+	}
+
+	.slick-prev{
+		left: 4px;
+		top: 45%;
+		border: 0;
+		width: 36px;
+		height: 60px;
+		color: #fff;
+		font-size: 12px;
+		font-weight: bold;
+		position: absolute;
+		text-align: center;
+		border-radius: 5px;
+		display: inline-block;
+		text-decoration: none;
+		font-family: "IRANSans";
+		transition: all 0.3s ease;
+		background: rgb(243,0,103);
+		z-index: 1;
+	}
+	.slick-next{
+		right: 4px;
+		top: 45%;
+		border: 0;
+		width: 36px;
+		height: 60px;
+		color: #fff;
+		font-size: 12px;
+		font-weight: bold;
+		position: absolute;
+		text-align: center;
+		border-radius: 5px;
+		display: inline-block;
+		text-decoration: none;
+		font-family: "IRANSans";
+		transition: all 0.3s ease;
+		background: rgb(243,0,103);
+		z-index: 1;
+	}
+	.slick-arrow i {
+		font-size: 16px;
+	}
+	.all-info .row .company .info a {
+		font-size: 15px;
+	}
+
+	.top-movies-section {
+		margin: 40px 0 0 0;
+		padding-bottom: 0;
+		display: block;
+	}
+
+.top-movies-section .container {
+    padding: 0;
+}
+
+	.top-movies-section .top-movies-carousel-item {
+		height: 260px;
+		margin: 0 5px;
+	}
+
+	.top-movies-carousel-item .details h1 {
+		font-size: 26px;
+		margin: 10px 0 0;
+	}
+
+	.top-movies-carousel-item .details .genres {
+		font-size: 14px;
+		margin: 5px 0 10px;
+	}
+
+	.top-movies-carousel-item .details .badges {
+		transform: scale(0.7);
+		transform-origin: bottom right;
+	}
+
+	.top-movies-section .slick-next,
+	.top-movies-section .slick-prev {
+		top: 32%;
+	}
+
+	.scrolltop {
+		display: none !important;
+	}
+
+	#hamburger {
+		margin: 30px 6px;
+	}
+
+	#main-header {
+		height: 86px;
+	}
+
+	#main-header .logo {
+		padding: 22px 16px 0;
+	}
+
+	#main-header:after {
+		top: 86px;
+	}
+
+	.search-container {
+		top: 86px;
+	}
+
+	#main-footer {
+		display: none;
+	}
+
+	.bottom-navigation {
+		display: flex;
+	}
+
+	.bottom-navigation .bottom-navigation-item .icon {
+		width: 38px;
+		height: 38px;
+		border-radius: 19px;
+	}
+	.page-title {
+        padding: 8vh 0;
+	}
+
+	.tv-show-section .movie-item .bottom {
+		display: none;
+	}
+
+	.tv-show-section .movie-item .top .quality {
+		display: none;
+	}
+
+	.tv-show-section .movie-item .top .episode {
+		background: transparent;
+		width: 100%;
+		padding: 6px 4px;
+		font-weight: normal;
+		font-size: 14px;
+		text-align: right;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		height: 36px;
+	}
+
+	.tv-show-section .movie-item .top {
+		position: relative;
+		bottom: initial;
+		left: initial;
+		width: 100%;
+		transform: scale(1);
+	}
+
+	.tv-show-section .movie-item:hover .top {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.movie-item .dl-btn {
+		display: none;
+	}
+
+	.movie-item:hover .bottom {
+		opacity: 1;
+	}
+
+	.responsive-main-menu {
+		width: 60vw;
+		padding-bottom: 60px;
+	}
+
+	.email-verify {
+        height: 100px;
+	}
+
+	.email-verify p {
+	    margin: 7px 0;
+	    font-size: 13px;
+	}
+
+	.email-verify .sent-again {
+		margin-top: 2px;
+		padding: 4px 18px;
+	    font-size: 13px;
+	}
+}
+
+@media (max-width: 576px) {
+	.responsive-main-menu {
+		width: 100vw;
+	}
+
+	.bottom-navigation .bottom-navigation-item .icon:before {
+		top: 3px;
+	}
+	
+    .slick-prev, .slick-next {
+    	top: 40%;
+    }
+
+	.tabText {
+		font-size: 15px;
+		padding: 8px 5px;
+	}
+
+	.section-header h2 {
+		font-size: 1.5em;
+		padding-bottom: 30px;
+	}
+
+	.tabList {
+		margin-bottom: 10px;
+	}
+	
+	.top-movies .movie-item {
+		width: 100%;
+		flex: initial;
+	}
+
+	.top-movies .movie-item img {
+		width: 28%;
+	}
+
+	.top-movies .movie-item .bottom h2 {
+		font-size: 17px;
+	}
+	.top-movies .movie-item .bottom .genres {
+		margin-top: 5px;
+		font-size: 12px;
+	}
+
+	.top-movie {
+		height: 80vh;
+	}
+
+	.top-movies {
+		margin-top: calc(80vh - 150px);
+	}
+
+	.top-movie-details {
+		margin-top: calc(80vh - 220px);
+	}
+
+	.top-movie-details {
+		float: none;
+		width: 100%;
+		margin-top: calc(80vh - 200px);
+	}
+
+	.top-movie-details .download-btn {
+		display: none;
+		padding: 0 10px 0 0;
+		margin: 0;
+		width: 100%;
+		transform: scale(1);
+	}
+
+	.top-movie-details .download-btn a {
+		font-size: 16px;
+	}
+
+	.top-movie-details .download-btn a i {
+		font-size: 12px;
+	}
+
+	.search-container {
+		width: calc(100% - 34px);
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.search-container i {
+		right: 22px;
+		top: 17px;
+		font-size: 15px;
+	}
+
+	.search-container input {
+		font-size: 14px;
+	}
+
+	#main-footer .footer-nav ul {
+		padding: 10px;
+	}
+
+	#main-footer .footer-nav ul a {
+		padding: 14px 16px;
+	}
+
+	.actors .col {
+		min-width: 100%;
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+
+	.dl-box .dl-btn {
+		width: 100%;
+		border-radius: 0 !important;
+		border-right: 0 !important;
+		border-left: 0 !important;
+		border-bottom: 2px solid #0f3e43 !important;
+	}
+
+	.dl-box .dl-btn:last-of-type {
+		border-radius: 0 0 10px 10px !important;
+		border-bottom: 0 !important;
+	}
+
+	.movie-title h1 {
+		font-size: 1.8em;
+	}
+
+	.trailer-box {
+		height: 260px;
+	}
+
+	.ratings .rating-item {
+		font-size: 1.2em;
+	}
+
+	.ratings .rating-item img {
+		height: 25px;
+	}
+
+	.ratings .rating-item .icon {
+		font-size: 22px;
+	}
+
+	.single-box-header .externals li a {
+		margin: 0 6px 0 0;
+	}
+
+	.poster-container img {
+		width: 90px;
+		box-shadow: 0 0 0 2px #fff, 0 10px 20px 0 rgb(14, 25, 35);
+	}
+
+	.settingsList .tabNum {
+		width: 100%;
+	}
+
+	.page-content .movie-item .top .remove {
+		font-size: 0;
+		padding: 13px 15px 14px 10px;
+    	border-radius: 30px;
+	}
+
+	.page-content .movie-item .top .remove i {
+		font-size: 14px;
+	}
+
+	.page-content .movie-item .bottom h2 {
+		font-size: 12px;
+	}
+
+	.page-content .twocol .movie-item .bottom {
+		right: 5px;
+		top: -4px;
+	}
+
+	.page-content .twocol .movie-item .bottom h2 {
+		font-size: 15px;
+		height: auto;
+	}
+
+	.movie-item .bottom .genres {
+		display: none;
+	}
+	
+	.page-title h1 {
+		font-size: 1.4em;
+	}
+
+	.settingTab form {
+		width: 100%;
+		padding: 0;
+	}
+
+	.page-content .walls .wall-item {
+		height: 120px;
+	}
+
+	.page-content .trailers .trailer-item {
+		height: 130px;
+	}
+
+	.tabNum {
+		width: calc(100% / 3);
+	}
+
+	.sort .select2 {
+		width: 50% !important;
+	}
+
+	#hamburger {
+		margin: 26px 16px;
+	}
+	
+	#hamburger span {
+        height: 2px;
+	}
+
+	#main-header .logo {
+		padding: 20px 10px;
+	}
+
+	#main-header {
+		height: 74px;
+	}
+	
+
+	#main-header:after {
+		top: 74px;
+	}
+
+	.search-container {
+		top: 74px;
+	}
+
+	#main-header .logo img {
+		width: 160px;
+	}
+
+	.movie-item .bottom h2 {
+		font-size: 12px;
+		height: 32px;
+		overflow: hidden;
+	}
+
+	.movie-item .bottom .genres {
+		font-size: 12px;
+		display: none;
+	}
+
+	.movie-section .movie-item .top {
+		display: none;
+	}
+
+	.tv-show-section .movie-item:before {
+		background: transparent;
+	}
+
+	.tv-show-section .movie-item .top .quality {
+		display: none;
+	}
+
+	.tv-show-section .movie-item .top .episode {
+		background: transparent;
+		width: 100%;
+		padding: 6px 4px;
+		font-weight: normal;
+		font-size: 11px;
+		text-align: right;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		height: 36px;
+	}
+
+	.tv-show-section .movie-item .top {
+		position: relative;
+		bottom: initial;
+		left: initial;
+		width: 100%;
+		transform: scale(1);
+	}
+
+	.tv-show-section .movie-item .bottom {
+		display: none;
+	}
+
+	.dl-links .dl-box .item-value {
+		width: auto;
+	}
+
+	.dl-links .dl-box .quality {
+		margin-bottom: 5px;
+	}
+	
+	.search-results {
+		width: 100%;
+	}
+
+	.search-results .search-result-item h2 {
+		font-size: 16px;
+		padding: 3px 0 8px;
+	}
+
+	.search-results .search-result-item .top {
+		right: 10px;
+	}
+
+	.search-results .search-result-item .top .quality {
+		display: none;
+	}
+
+	.tabList.seasons .tabNum {
+		width: calc(100% / 3);
+		font-size: 15px;
+	}
+
+	.dl-box .episode-links .link {
+		width: calc((100% / 3) - 8px);
+		font-size: 14px;
+	}
+
+	.episode-links .dl-box .dl-btn {
+		width: 100%;
+	}
+
+	.bottom-navigation .bottom-navigation-item {
+		padding: 6px 0 3px;
+	}
+
+	.bottom-navigation .bottom-navigation-item span {
+		font-size: 12px;
+	}
+
+	.bottom-navigation .bottom-navigation-item .icon {
+		font-size: 23px;
+		width: 32px;
+		height: 32px;
+		border-radius: 16px;
+	}
+
+	.movie-section {
+		margin-bottom: 40px;
+	}	
+
+	.row {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	
+	#main-header.single {
+		height: 126px;
+	}
+
+	.dl-links .dl-box {
+		padding: 12px 0 0;
+	}
+
+	.container {
+		padding: 0 8px;
+	}
+}
+
+@media(max-width: 376px) {
+	.email-verify {
+        height: 120px;
+	}
+}
