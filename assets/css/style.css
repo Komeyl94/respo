@@ -1109,8 +1109,8 @@ input {
     text-align: right;
     font-size: 15px;
     color: #fff;
-    border-radius: 5px;
-    background: #f30067;
+    border-radius: 5px !important;
+    background: #f30067 !important;
 }
 .responsive-main-menu li.profile-btn .children form {
     border-radius: 5px;
