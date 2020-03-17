@@ -1111,6 +1111,9 @@ input {
     color: #fff;
     border-radius: 5px !important;
     background: #f30067 !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 .responsive-main-menu li.profile-btn .children form {
     border-radius: 5px;
